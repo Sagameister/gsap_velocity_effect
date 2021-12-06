@@ -1,5 +1,5 @@
 let proxy = {
-        skew: 2
+        skew: 3
     },
     skewSetter = gsap.quickSetter(".skewelem", "skewY", "deg"), // fast
     clamp = gsap.utils.clamp(-20, 20); // don't let the skew go beyond 20 degrees. 
