@@ -6,7 +6,7 @@ let proxy = {
 
 ScrollTrigger.create({
     onUpdate: (self) => {
-        let skew = clamp(self.getVelocity() / -800);
+        let skew = clamp(self.getVelocity() / -200);
         if (Math.abs(skew) > Math.abs(proxy.skew)) {
             proxy.skew = skew;
             gsap.to(proxy, {
